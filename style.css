@@ -1,0 +1,29 @@
+body{
+    background: #f4f4f4;
+    height: 100%;
+    margin: 0;
+}
+header{
+    background: #ff7f50;
+    width: 100%;
+}
+#header-h1{
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.paddingLeft{
+    padding-left: 5%;
+}
+nav{
+    padding-left: 5%;
+    width: 100%;
+    background: #333333;
+}
+span .navigation{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
