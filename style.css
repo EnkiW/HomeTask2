@@ -1,5 +1,5 @@
 body{
-    background: #f4f4f4;
+    background: #ffffff;
     height: 100%;
     margin: 0;
 }
@@ -16,14 +16,67 @@ header{
 .paddingLeft{
     padding-left: 5%;
 }
-nav{
+.navigation{
     padding-left: 5%;
     width: 100%;
+    height: 50px;
     background: #333333;
 }
-span .navigation{
+a{
+    color: #f4f4f4;
+    text-decoration: none;
+
+}
+.navigationDiv{
+    padding-top: 15px;
+}
+.navigationSpan2{
+    color: #f4f4f4;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.imgBackground {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    text-align: center;
     color: white;
 }
-a{
-    text-decoration: none;
+
+.imgBackground img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.textInImg {
+    font-weight: bold;
+    width: 80%;
+    font-family: 'Glegoo', serif;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.left{
+    float: left;
+    width: 60%;
+    height: 300px;
+    background: coral;
+    padding-top: 30px;
+}
+.leftDiv{
+    background: #f4f4f4;
+    width: 80%;
+    margin-left: 15%;
+}
+.h2InLeftDiv{
+    font-size: 30px;
+    color: #555555;
+}
+.pInLeftDiv{
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.5;
 }
